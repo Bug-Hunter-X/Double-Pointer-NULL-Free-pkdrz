@@ -1,0 +1,1 @@
+int main() {int x = 10;int *ptr = &x;int **ptr2 = &ptr;if (*ptr2 != NULL) {free(*ptr2);*ptr2 = NULL;}return 0;} 
